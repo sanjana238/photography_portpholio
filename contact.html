@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Coding buzz</title>
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+        <meta name="keywords" content="photographer , photographic , website, personal"><!-- IMP for SEO-->
+        <meta name="description" content="I have create this website with all the tag i was thought"><!-- A little decs-->
+        <meta name="author" content="Obivously Me ">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js"></script>
+        
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header">
+            <div class = "nav-section">
+                <div class = "brand-and-navBtn">
+                    <span class = "brand-name">
+                        Coding buzz
+                    </span>
+                    <span class = "navBtn flex">
+                        <i class = "fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <!-- navigation menu -->
+                <nav class = "top-nav">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "gallery.html">Gallery</a></li>
+                        <li><a href = "blog.html">Blog</a></li>
+                        <li><a href = "contact.html" class = "active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class = "container about">
+                <div class = "about-content">
+                    <h2>We Are Team Coding Buzz</h2>
+                    <h3>Photographer | Developer</h3>
+                    <blockquote>
+                        "Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever ... It remembers little things, long after you have forgotten everything."
+                        <span>-Aaron Siskind</span>
+                    </blockquote>
+                </div>
+
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "https://m.facebook.com/S Nizam" target="_blank"><i class = "fab fa-facebook" ></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://www.instagram.com/mr._.nizam.__.1/" target="_blank"><i class = "fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- main -->
+        <section class = "section-five">
+            <div class = "container">
+                <div class = "contact-top">
+                    <h3>CONTACT US</h3>
+                    <p>You can contact us using the following ways. Feel free to contact.</p>
+                </div>
+
+                <div class = "contact-middle">
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-map-signs"></i>
+                        </span>
+                        <span>Address</span>
+                        <p>Bellary, Karnataka, India</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-phone"></i>
+                        </span>
+                        <span>Contact Number</span>
+                        <p>+91 123456789</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-paper-plane"></i>
+                        </span>
+                        <span>Email Address</span>
+                        <p>Codingbuzz@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class = "contact-bottom" >
+                    <form id="form" class = "form" action="index.html" onsubmit="return validateForm()" novalidate method="POST">
+                        <input id="fname" name="myName" onblur="validate1()" type="text" placeholder="Name:">
+                        <p id="error1"></p>
+                        <input id="mail" onblur="validate4()" type="email" placeholder="Email:">
+                        <p id="error4"></p>
+                        <input id="sub" name="sub" onblur="validate2()"  type = "text" placeholder="Subject:">
+                        <p id="error2"></p>
+                        <textarea id="msg" name="msg"onblur="validate3()" rows = "9" placeholder="Message:" ></textarea>
+                        <p id="error3"></p>
+                        <input type = "submit" onclick="myFunction()" class = "btn" value = "Send Message">
+                    </form>
+
+                    <!-- Map -->
+                    <div>
+                        <a href="https://www.google.com/maps?q=https://maps.app.goo.gl/LL5msx7mJkix2a6z6" target="_blank">Click here to view my current location</a>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of main -->
+
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container container">
+                <div>
+                    <h2>Coding buzz</h2>
+                    <p>UnderGraduate in Computer Science from RYMEC having hand-ons experience in Android application development using HTML, CSS, JavaScript.</p>
+                </div>
+                <div>
+                    <h3>Free Subscription!</h3>
+                    <p>do subscribe its free.</p>
+
+                    <div class = "subs">
+                        <i class = "fas fa-envelope"></i>
+                        <input type = "email" id = "email" placeholder="Email Address">
+                        <button type = "submit">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; Copyright Coding.buzz</p>
+        </footer>
+        <!-- end of footer -->
+        
+        <script src="script.js"></script>
+        <script>
+            function myFunction() {
+            alert("Form will be submitted")};
+            </script>
+        </body>
+</html>
