@@ -1,7 +1,7 @@
 # Photographywebsite
 My photography website using HTML, CSS & JavaScript. 
  
- https://github.com/sanjana238/photography_portpholio
+https://nizam002.github.io/Photography-Portfolio-coding-buzz-/
  
 This is a website I have created in which i included Home, Gallery, Blog and Contact Me Page.
 
