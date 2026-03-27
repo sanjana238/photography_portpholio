@@ -1,5 +1,5 @@
 # Photographywebsite
-Our photography website using HTML, CSS & JavaScript. 
+Our photography portfolio website using HTML, CSS & JavaScript. 
  
 https://nizam002.github.io/Photography-Portfolio-coding-buzz-/
  
